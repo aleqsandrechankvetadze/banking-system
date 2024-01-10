@@ -1,0 +1,66 @@
+
+body{
+    background-image: url(/banking\ service.avif);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 1260px 700px;
+}
+
+#mainname{
+    position: relative;
+    color:white;
+    top:160px;
+    right: 20px;
+}
+
+#balance{
+    position: relative;
+    color:white;
+    top:170px;
+    right: 20px;
+}
+
+#AmountOfEneteredMoney{
+    position: relative;
+    color:white;
+    top:193px;
+    right:130px
+}
+
+#deposit{
+    background-color:cadetblue;
+    border:none;
+    display: inline-block;
+    cursor : pointer;
+    position:relative;
+    top:200px;
+    right:100px;
+    width: 100px;
+    height: 55px;
+}
+#withdraw{
+    background-color:cadetblue;
+    border:none;
+    display: inline-block;
+    cursor : pointer;
+    position:relative;
+    top:200px;
+    right:85px;
+    width: 100px;
+    height:55px
+}
+
+#deposit:hover {
+    background-color:beige;
+    transition: 0.4s;
+}
+#withdraw:hover {
+    background-color:beige;
+    transition: 0.4s;
+}
+#amount{
+    position: relative;
+    top:150px;
+    left:90px;
+    height: 25px;
+}
